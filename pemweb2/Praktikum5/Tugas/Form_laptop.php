@@ -10,8 +10,14 @@
     <label for="merk">Merk Laptop</label>
     <input type="text" id="merk" name="merk">
 
-    <label for="nilai">:</label>
-    <input type="number" id="nilai" name="nilai">
+    <label for="processor">Processor Laptop:</label>
+    <input type="text" id="processor" name="processor">
+
+    <label for="ram">RAM Laptop (GB):</label>
+    <input type="text" id="ram" name="ram">
+
+    <label for="rom">ROM Internal Laptop(GB):</label>
+    <input type="text" id="rom" name="rom">
 
     <button type="submit">Submit</button>
 </form>
