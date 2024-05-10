@@ -26,7 +26,7 @@
         $nomor = '1';
         foreach($result as $row){
             echo"<tr>
-            <td>".$nomor."</td>
+            <td>".$nomor++ ."</td>
             <td>".$row['nama_pasien']."</td>
             <td>".$row['nama_paramedik']."</td>
             <td>".$row['tanggal']."</td>

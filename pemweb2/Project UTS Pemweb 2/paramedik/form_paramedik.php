@@ -57,7 +57,6 @@
       </div>
     </div>
   </div>
-  </div>
   <div class="form-group row">
     <label for="telpon" class="col-4 col-form-label">telpon</label> 
     <div class="col-8">

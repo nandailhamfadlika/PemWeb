@@ -28,7 +28,7 @@
         $nomor = '1';
         foreach($result as $row){
             echo"<tr>
-            <td>".$nomor."</td>
+            <td>".$nomor++ ."</td>
             <td>".$row['kode']."</td>
             <td>".$row['nama']."</td>
             <td>".$row['gender']."</td>
@@ -38,7 +38,7 @@
             <td>".$unitKerja['nama']."</td>
             <td>
                 <a href='form_paramedik.php?paramedik_id=".$row['paramedik_id']."'>Edit</a>
-                <a href='proses_delete.php?paramedik_id=".$row['paramedik_id']."'>Delete</a>
+                <a href='periksa_delete.php?paramedik_id=".$row['paramedik_id']."'>Delete</a>
             <td/>
             </tr>";
         }

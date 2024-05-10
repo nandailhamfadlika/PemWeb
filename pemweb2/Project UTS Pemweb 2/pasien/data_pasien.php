@@ -22,7 +22,7 @@
         $nomor = '1';
         foreach($result as $row){
             echo"<tr>
-            <td>".$nomor."</td>
+            <td>".$nomor++ ."</td>
             <td>".$row['nama']."</td>
             <td>".$row['kode']."</td>
             <td>".$row['alamat']."</td>
